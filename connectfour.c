@@ -49,10 +49,11 @@ int main(){
 			charsPlaced ++;
 			system("cls");
 			display();
+		}
 	}
 
 	system("cls");
-	if(charsPlaced == 42){/
+	if(charsPlaced == 42){
 		cout<<"No winner, Game was draw\n";
 		system("pause");
 		return 0;
@@ -63,7 +64,7 @@ int main(){
 	system("pause");
 	return 0;
 }
-void display(){
+void display() {
 	cout<<" 1   2   3   4   5   6   7\n";
 	for(int a = 0; a<= 5; a++)
 	{

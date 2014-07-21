@@ -2,7 +2,7 @@
 #include <cstring>
  
 using namespace std;
-void printBook(struct Books book);
+void printBook(struct Books *book);
    /* data */
  
 struct Books {
@@ -28,14 +28,15 @@ int main() {
    strcpy( Book2.subject, "Telecom");
    Book2.book_id = 6495700;
 
-// Print Book1 info
-   printBook( Book1 );
-// Print Book2 info
-   printBook( Book2 );
+// Print Book1 info, passing address of structure
+   printBook( &Book1 );
+// Print Book2 info, passing address of structure
+   printBook( &Book2 );
 
    return 0;
 }
-void printBook(struct Books book) {
+// This function accept pointer ro structure as parameter.
+void printBook(struct Books *book) {
    cout << "Book title : " << book.title << endl;
    cout << "Book author :" << book.author << endl;
    cout << "Book subject :" << book.subject << endl;

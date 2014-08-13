@@ -1,13 +1,13 @@
-Hi. My name is Craig Amiano. My dad is evil because he wrote this. 
+Editor: Sublime Text
 
-He could have written all kinds of embarrassing but true stuff about me here, but he didn't. 
-He simply asked me to fill out the Readme and experiment with the tutorial programs, and show his work in commits. 
-That was two days ago, and I haven't posted anything to show I was listening. 
+Operating System: MAC OSX 10.6.8 Snow Leopard
 
-So now, he put up this crap on the Readme, and it will stay up here until I get the initiative to remove it.
-Plus, because he made the change on Github, I may have merge conflicts, and may have to learn about how to resolve them. 
+Compiling Command:
+>g++ NAME.c -o NAME
 
-![Trollface Logo](/images/trollface.jpg)
+Modified a couple tutorial programs that fixed errors and made code look better.
+Shrank some programs by removing unneeded lines.
+
 
 For learning C/C++
 
